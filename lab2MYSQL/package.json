@@ -1,0 +1,30 @@
+{
+  "name": "lab2mysql",
+  "version": "1.0.0",
+  "description": "Node.js CRID examle with SQL server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "js",
+    "CRUD",
+    "sql",
+    "server",
+    "express",
+    "sequentize",
+    "rest",
+    "api"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mssql": "^9.0.1"
+  }
+}
